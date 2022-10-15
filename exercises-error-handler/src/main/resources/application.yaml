@@ -1,0 +1,11 @@
+quarkus:
+  camel:
+    health:
+      enabled: true
+
+camel:
+  context:
+    name: ${quarkus.application.name}
+    tracing: true
+  
+     
